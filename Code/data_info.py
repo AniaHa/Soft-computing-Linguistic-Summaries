@@ -49,8 +49,8 @@ mania = df[df['class'] == 'mania']
 mixed = df[df['class'] == 'mixed']
 
 # boxplots
-#sns.boxplot(x = df['class'], y = df['context_avg_day_duration_incoming'])
-#sns.boxplot(x = df['class'], y = df['context_no_day_incoming_calls'])
+# sns.boxplot(x = df['class'], y = df['context_avg_day_duration_incoming'])
+# sns.boxplot(x = df['class'], y = df['context_no_day_incoming_calls'])
 
 # od Antka
 
@@ -78,12 +78,13 @@ yms_l = fuzz.trapmf(x, [df2.yms.min(), df2.yms.min(), df2.yms.mean(), df2.yms.me
 yms_m = fuzz.trapmf(x, [df2.yms.quantile(0.5), df2.yms.quantile(0.5), df2.yms.quantile(0.75), df2.yms.quantile(0.75)])
 yms_h = fuzz.trapmf(x, [df2.yms.quantile(0.75), df2.yms.quantile(0.75), df2.yms.max(), df2.yms.max()])
 
-#fig, ax0 = plt.subplots(nrows = 1, figsize = (8, 9))
-#ax0.plot(x, yms_l, 'b', linewidth = 1.5, label = 'Low')
-#ax0.plot(x, yms_m, 'g', linewidth = 1.5, label = 'Medium')
-#ax0.plot(x, yms_h, 'r', linewidth = 1.5, label = 'High')
-#ax0.set_title('Height')
-#ax0.legend()
+
+# fig, ax0 = plt.subplots(nrows = 1, figsize = (8, 9))
+# ax0.plot(x, yms_l, 'b', linewidth = 1.5, label = 'Low')
+# ax0.plot(x, yms_m, 'g', linewidth = 1.5, label = 'Medium')
+# ax0.plot(x, yms_h, 'r', linewidth = 1.5, label = 'High')
+# ax0.set_title('Height')
+# ax0.legend()
 
 
 def trapmf_plot(x, s):
@@ -101,7 +102,7 @@ def trapmf_plot(x, s):
     ax0.legend()
 
 
-#trapmf_plot(df2.context_avg_day_duration_incoming, 1)
+# trapmf_plot(df2.context_avg_day_duration_incoming, 1)
 
 
 def kwantyfikator_plot(a, x, s, id=0):
@@ -174,15 +175,15 @@ def kwantyfikator(a, x, s, id=0):
     return low, medium, high, x_p
 
 
-#kwantyfikator(4, df2.context_no_day_outgoing_calls, 1, id = 9829)
-#kwantyfikator_plot(4, df2.context_no_day_outgoing_calls, 1, id = 9829)
-#kwantyfikator_plot(4, df2.context_no_day_outgoing_calls, 1)
+# kwantyfikator(4, df2.context_no_day_outgoing_calls, 1, id = 9829)
+# kwantyfikator_plot(4, df2.context_no_day_outgoing_calls, 1, id = 9829)
+# kwantyfikator_plot(4, df2.context_no_day_outgoing_calls, 1)
 
-#kwantyfikator_plot(50, df2.context_avg_len_sms, 0.25, id = 9829)
-#kwantyfikator_plot(50, df2.context_avg_len_sms, 1)
+# kwantyfikator_plot(50, df2.context_avg_len_sms, 0.25, id = 9829)
+# kwantyfikator_plot(50, df2.context_avg_len_sms, 1)
 
 # zad 3
-# normalizacja, standaryzacja w obrebie pacjenta (?)
+# normalization, standardization
 ids = df2['patient_id'].unique()
 df2 = df2.reset_index().drop(columns = 'index')
 df2.index = df2.index + 1
@@ -224,11 +225,9 @@ z_l = fuzz.trapmf(y, [4, 6, 13, 14])
 z_m = fuzz.trapmf(y, [13, 14, 25, 26])
 z_h = fuzz.trapmf(y, [25, 26, z.max(), z.max()])
 
-
 fig, ax0 = plt.subplots(nrows = 1, figsize = (8, 9))
 ax0.plot(y, z_l, 'b', linewidth = 1.5, label = 'Hipomania')
 ax0.plot(y, z_m, 'g', linewidth = 1.5, label = 'Mania')
 ax0.plot(y, z_h, 'r', linewidth = 1.5, label = 'Ciezka mania')
 ax0.set_title('Poziom manii')
 ax0.legend()
-
