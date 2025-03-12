@@ -1,0 +1,101 @@
+Sentence;Degree of Truth;Degree of Support;Degree of Focus
+For almost no records in depression, context_avg_day_duration_incoming is medium;0.5507477258525529;0.4864864864864865;0
+For almost no records in depression, context_avg_day_duration_incoming is high;0.5726425157612741;0.3783783783783784;0
+For almost no records in depression, context_stddev_duration_incoming is medium;0.5390934097308894;0.44666666666666666;0
+For almost no records in depression, context_stddev_duration_incoming is high;0.5759066853451631;0.38;0
+For almost no records in depression, context_avg_day_duration_outgoing is medium;0.4770790664047221;0.49583333333333335;0
+For almost no records in depression, context_avg_day_duration_outgoing is high;0.7225654247472547;0.37083333333333335;0
+For almost no records in depression, context_stddev_duration_outgoing is high;0.7259449563510244;0.35175879396984927;0
+For almost no records in depression, context_avg_len_sms is medium;0.5639048453886654;0.43005181347150256;0
+For almost no records in depression, context_avg_len_sms is high;0.49320727530983166;0.38341968911917096;0
+For almost no records in depression, context_prc_nottakencalls is medium;0.5722961351276895;0.4666666666666667;0
+For almost no records in depression, context_prc_out_calls is medium;0.48030116283093816;0.48333333333333334;0
+For almost no records in depression, context_prc_out_calls is high;0.502976509267024;0.39166666666666666;0
+For almost no records in depression, context_avg_duration_calls is high;0.6971959083215459;0.3639705882352941;0
+For most records in depression, self_avg_feeling is low;1.0;0.6666666666666666;0
+For almost no records in depression, context_stddev_duration_calls is medium;0.4776535909828688;0.49145299145299143;0
+For almost no records in depression, context_stddev_duration_calls is high;0.8299355673910394;0.3547008547008547;0
+For almost no records in mania, context_avg_day_duration_incoming is medium;0.537589402555779;0.39705882352941174;0
+For almost no records in mania, context_avg_day_duration_incoming is high;0.5893803547296806;0.4117647058823529;0
+For most records in mania, context_no_sms is low;0.7945736434108532;0.5813953488372093;0
+For almost no records in mania, context_prc_nottakencalls is high;0.7662196477307959;0.4444444444444444;0
+For most records in mania, self_avg_feeling is medium;1.0;0.75;0
+For almost no records in mania, context_stddev_duration_calls is medium;0.5719624113117939;0.44594594594594594;0
+For almost no records in mania, context_no_all_calls is high;0.4574436003074153;0.36046511627906974;0
+For almost no records in euthymia, context_stddev_duration_incoming is medium;0.45688129313748893;0.4755244755244755;0
+For almost no records in euthymia, context_stddev_duration_outgoing is medium;0.4878726555916203;0.4664804469273743;0
+For almost no records in euthymia, context_prc_out_calls is high;0.8073862285889077;0.37089201877934275;0
+For almost no records in euthymia, context_avg_duration_calls is medium;0.467835264735553;0.4890829694323144;0
+For almost no records in euthymia, self_avg_comment_len_sleep is medium;0.8528893038697892;0.35714285714285715;0
+For almost no records in euthymia, self_avg_comment_len_sleep is high;0.575853642427845;0.35714285714285715;0
+For almost no records in euthymia, self_avg_comment_len_mood is medium;0.6815210932937071;0.35294117647058826;0
+For almost no records in euthymia, context_stddev_duration_calls is medium;0.5460147757013898;0.491566265060241;0
+For almost no records in mixed, context_avg_day_duration_incoming is high;0.5709591016701377;0.3563218390804598;0
+For almost no records in mixed, context_stddev_duration_incoming is medium;0.5183011853995421;0.4745762711864407;0
+For almost no records in mixed, context_no_day_outgoing_calls is medium;0.46394308210613683;0.4117647058823529;0
+For almost no records in mixed, context_no_calls is high;0.5390314789935747;0.38235294117647056;0
+For almost no records in mixed, context_prc_nottakencalls is medium;0.5062277469742528;0.4576271186440678;0
+For almost no records in mixed, context_prc_out_calls is high;0.76044078726004;0.36046511627906974;0
+For almost no records in mixed, self_avg_comment_len_sleep is low;0.8974358974358976;0.4;0
+For almost no records in mixed, self_avg_comment_len_sleep is high;0.74468085106383;0.4;0
+For almost all records in mixed, self_avg_comment_len_mood is medium;1.0;1.0;0
+For almost no records in mixed, context_no_all_calls is high;0.5336556368378929;0.39215686274509803;0
+For almost no records context_avg_day_duration_incoming is high;0.7133503320308374;0.35309278350515466;0
+For almost no records context_stddev_duration_incoming is medium;0.48042240548070836;0.4675324675324675;0
+For almost no records context_stddev_duration_incoming is high;0.6805116790453323;0.35992578849721707;0
+For almost no records context_avg_day_duration_outgoing is high;0.7210220648894313;0.35714285714285715;0
+For almost no records context_stddev_duration_outgoing is high;0.6519751144981091;0.3554913294797688;0
+For almost no records context_avg_len_sms is high;0.6595706990694156;0.3543913713405239;0
+For almost no records context_prc_nottakencalls is high;0.6722964443310134;0.3908918406072106;0
+For almost no records context_prc_out_calls is high;0.7064285238533106;0.3728813559322034;0
+For almost no records context_avg_duration_calls is high;0.6995004735322483;0.35706462212486306;0
+For almost no records context_stddev_duration_calls is medium;0.48835102277439085;0.4858548585485855;0
+For almost no records context_stddev_duration_calls is high;0.7631527334219673;0.35670356703567035;0
+For most records in low depression, context_no_nottakencalls is medium;0.2293577981651374;0.13522012578616352;0.22851153039832284
+For most records in low mania, context_no_day_incoming_calls is medium;0.29043513957298434;0.07023060796645703;0.11740041928721175
+For most records in high mania, context_avg_day_duration_outgoing is high;0.7101710079568769;0.008385744234800839;0.011530398322851153
+For most records in low mania, context_no_nottakencalls is low;0.6250000000000001;0.07127882599580712;0.11740041928721175
+For most records in low mania, context_no_nottakencalls is medium;0.7291666666666664;0.07337526205450734;0.11740041928721175
+For most records in low mania, context_no_sms is low;0.5956632653061223;0.07337526205450734;0.11740041928721175
+For most records in high mania, context_avg_len_sms is high;1.0;0.008385744234800839;0.011530398322851153
+For most records in low depression and high mania, context_avg_day_duration_outgoing is high;0.7101710079568769;0.008385744234800839;0.011530398322851153
+For most records in low depression and low mania, context_no_nottakencalls is low;0.5555555555555559;0.027253668763102725;0.04716981132075472
+For most records in low depression and low mania, context_no_nottakencalls is medium;0.5925925925925924;0.027253668763102725;0.04716981132075472
+For most records in high depression and medium mania, context_no_nottakencalls is medium;0.9259259259259258;0.012578616352201259;0.018867924528301886
+For most records in low depression and medium mania, context_no_nottakencalls is high;0.1351351351351349;0.010482180293501049;0.01939203354297694
+For most records in low depression and low mania, context_no_sms is low;1.0;0.031446540880503145;0.04716981132075472
+For most records in medium depression and medium mania, context_no_sms is low;1.0;0.008385744234800839;0.011530398322851153
+For most records in medium depression and medium mania, context_no_sms is medium;1.0;0.008385744234800839;0.011530398322851153
+For most records in low depression and low mania, context_no_sms is high;0.0972222222222219;0.02410901467505241;0.04716981132075472
+For most records in low depression and high mania, context_avg_len_sms is high;1.0;0.008385744234800839;0.011530398322851153
+For most records in medium depression and medium mania, self_avg_feeling is low;1.0;0.008385744234800839;0.011530398322851153
+For most records in medium depression and medium mania, self_avg_feeling is medium;1.0;0.008385744234800839;0.011530398322851153
+For almost no records in low depression, context_no_day_incoming_calls is high;0.8000339789330616;0.07651991614255765;0.22851153039832284
+For almost no records in low depression, context_avg_day_duration_incoming is low;0.4045574264885492;0.09643605870020965;0.22851153039832284
+For almost no records in low depression, context_avg_day_duration_incoming is medium;0.798845977283118;0.09748427672955975;0.22851153039832284
+For almost no records in low depression, context_avg_day_duration_incoming is high;1.0;0.07127882599580712;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_incoming is low;0.950585990498159;0.06708595387840671;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_incoming is medium;1.0;0.06184486373165619;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_incoming is high;1.0;0.05870020964360587;0.22851153039832284
+For almost no records in low depression, context_no_day_outgoing_calls is high;0.7054224475757743;0.08490566037735849;0.22851153039832284
+For almost no records in low depression, context_avg_day_duration_outgoing is medium;0.5048924115452806;0.1090146750524109;0.22851153039832284
+For almost no records in low depression, context_avg_day_duration_outgoing is high;0.8224649171876595;0.08176100628930817;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_outgoing is low;0.669791044071344;0.07966457023060797;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_outgoing is medium;0.8090728849385506;0.09748427672955975;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_outgoing is high;0.9282817231827262;0.07651991614255765;0.22851153039832284
+For almost no records in low depression, context_no_nottakencalls is high;0.4978884520168922;0.07651991614255765;0.22851153039832284
+For almost no records in low depression, context_no_sms is medium;0.4112008105122468;0.09014675052410902;0.22851153039832284
+For almost no records in low depression, context_no_sms is high;0.5058877706819374;0.08385744234800839;0.22851153039832284
+For almost no records in low depression, context_avg_len_sms is low;0.5686457526401768;0.08490566037735849;0.22851153039832284
+For almost no records in low depression, context_avg_len_sms is medium;1.0;0.08280922431865828;0.22851153039832284
+For almost no records in low depression, context_avg_len_sms is high;0.8755656072420134;0.06918238993710692;0.22851153039832284
+For almost no records in low depression, context_no_calls is high;0.7477522156315661;0.08385744234800839;0.22851153039832284
+For almost no records in low depression, context_prc_nottakencalls is low;1.0;0.06184486373165619;0.22851153039832284
+For almost no records in low depression, context_prc_out_calls is low;0.4503968597676704;0.10062893081761007;0.22851153039832284
+For almost no records in low depression, context_prc_out_calls is high;0.7647887756610056;0.07966457023060797;0.22851153039832284
+For almost no records in low depression, context_avg_duration_calls is high;0.6421421759857787;0.0880503144654088;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_calls is medium;0.5510967042783183;0.1069182389937107;0.22851153039832284
+For almost no records in low depression, context_stddev_duration_calls is high;0.8546195659342012;0.08071278825995808;0.22851153039832284
+For almost no records in low depression, context_no_all_calls is high;0.7368201294368251;0.0880503144654088;0.22851153039832284
+For almost no records in low mania, context_no_day_outgoing_calls is medium;0.5095483891133727;0.05555555555555555;0.11740041928721175
+For almost no records in low mania, context_stddev_duration_calls is medium;0.7362600523839095;0.05450733752620545;0.11740041928721175
